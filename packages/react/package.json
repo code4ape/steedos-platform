@@ -39,7 +39,7 @@
     "babel-preset-env": "^1.7.0",
     "clone": "^2.1.2",
     "dotenv-flow": "^3.1.0",
-    "immer": "^6.0.9",
+    "immer": "^9.0.6",
     "marked": "^0.8.0",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
