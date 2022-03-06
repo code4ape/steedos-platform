@@ -90,9 +90,6 @@ Template.creatorHeader.events
 	'click .refresh': ()->
 		location.reload()
 
-	'click .creator-button-help': (event, template) ->
-		Steedos.openWindow "https://www.steedos.com/help";
-
 	'click .slds-dropdown-trigger_click': (event, template) ->
 		if $(event.currentTarget).hasClass('slds-is-open')
 			$(event.currentTarget).removeClass('slds-is-open')
