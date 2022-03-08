@@ -40,9 +40,9 @@ Template.headerProfile.helpers({
 			downloadUrl = urls.download;
 		}
 		return [
-			{label: t("Online Help"), onClick: function(){return Steedos.openWindow(helpUrl)}},
-			{label: t("Client download"), onClick: function(){return Steedos.openWindow(downloadUrl)}},
-			{label: t("About"), onClick: function(){return FlowRouter.go("/app/admin/page/creator_about");}}
+			// {label: t("Online Help"), onClick: function(){return Steedos.openWindow(helpUrl)}},
+			// {label: t("Client download"), onClick: function(){return Steedos.openWindow(downloadUrl)}},
+			// {label: t("About"), onClick: function(){return FlowRouter.go("/app/admin/page/creator_about");}}
 		]
 	},
 	assistiveText: function(){
